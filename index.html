@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TerraCraft — Minimal 2D Sandbox Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="hud">
+      <button class="btn" id="regen">Regenerate world (R)</button>
+      <div id="seed" class="slot">Seed: —</div>
+      <div id="inv">
+        <div class="slot" data-id="1">1 Dirt</div>
+        <div class="slot" data-id="2">2 Stone</div>
+        <div class="slot" data-id="3">3 Wood</div>
+      </div>
+    </div>
+  </header>
+  <canvas id="game"></canvas>
+  <footer>WASD move • Left-click mine • Right-click place • 1–3 select block</footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
+</html>
